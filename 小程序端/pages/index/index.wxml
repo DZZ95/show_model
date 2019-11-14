@@ -1,0 +1,7 @@
+<!--pages/canvas/canvas.wxml-->
+<button  type="primary" bindtap="chooseImage">选择</button>
+<button  type="primary" bindtap="uploadFile">上传</button>
+<button  type="primary" bindtap="reg_image">转换</button>
+<image wx:if='{{src}}' src='{{src}}' mode='widthFix'></image>
+<image src="{{captchaImage}}" mode='widthFix' ></image>
+<!-- size = "mini" -->

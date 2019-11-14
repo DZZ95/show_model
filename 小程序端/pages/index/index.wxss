@@ -1,0 +1,5 @@
+/* pages/canvas/canvas.wxss */
+button{
+  margin: 25rpx;
+}
+
